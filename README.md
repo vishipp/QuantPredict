@@ -1,7 +1,9 @@
 **QuantPredict**
+
  is a machine learning project that uses Support Vector Regression (SVR) to model and predict stock prices based on historical time-series data. The goal of this project is to compare different SVR kernels and observe how they perform on non-linear financial data.
 
 **Overview**
+
 The project loads historical stock price data from a CSV file and performs the following steps:
 
 - Converts date strings into datetime objects
@@ -17,6 +19,7 @@ The project loads historical stock price data from a CSV file and performs the f
 - The x-axis represents normalized time (0 to 1), and the y-axis represents stock price.
 
 **Models Used**
+
 Three Support Vector Regression models were trained:
 
 - Linear Kernel: Captures the overall upward trend but underfits curvature and volatility.
@@ -75,7 +78,7 @@ cd QuantPredict
 
 pip install numpy scikit-learn matplotlib
 
-Run the program:
+3) Run the program:
 
 python3 main.py
 
