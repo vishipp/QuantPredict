@@ -1,5 +1,5 @@
 **QuantPredict**
-QuantPredict is a machine learning project that uses Support Vector Regression (SVR) to model and predict stock prices based on historical time-series data. The goal of this project is to compare different SVR kernels and observe how they perform on non-linear financial data.
+ is a machine learning project that uses Support Vector Regression (SVR) to model and predict stock prices based on historical time-series data. The goal of this project is to compare different SVR kernels and observe how they perform on non-linear financial data.
 
 **Overview**
 The project loads historical stock price data from a CSV file and performs the following steps:
